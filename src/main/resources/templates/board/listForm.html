@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>제목</th>
+            <th>내용</th>
+            <th>날짜</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <div>
+        <form action="/write" method="get" >
+           <input type="button" value="글쓰기" id="btn">
+        </form>
+    </div>
+
+
+    <script>
+        $("#btn").click(function(){
+           console.log('글쓰기 버튼 클릭!');
+        });
+    </script>
+</body>
+</html>
